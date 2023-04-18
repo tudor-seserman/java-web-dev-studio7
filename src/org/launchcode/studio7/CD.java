@@ -1,6 +1,15 @@
 package org.launchcode.studio7;
 
-public class CD {
+public class CD extends BaseDisc{
+    public CD(String name) {
+        super(name);
+        this.rpm = 500;
+        this.dataStorage=5;
+    }
+
+    public void playMusic(){
+        System.out.println("Enjoy listing to "+name);
+    }
 
     // TODO: Implement your custom interface.
 
