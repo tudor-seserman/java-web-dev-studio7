@@ -13,7 +13,7 @@ public class DVD extends BaseDisc implements  OpticalDisc {
 
     @Override
     public void readData() {
-        System.out.println("I'm sorry, Dave. I'm afraid I can't do that.");
+        System.out.println("Here is your data.");
     }
 
 

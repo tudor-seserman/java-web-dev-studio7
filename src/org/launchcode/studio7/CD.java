@@ -13,6 +13,6 @@ public class CD extends BaseDisc implements OpticalDisc{
 
     @Override
     public void readData() {
-        System.out.println("Would you like to play a game?");
+        System.out.println("Here is your data.");
     }
 }
